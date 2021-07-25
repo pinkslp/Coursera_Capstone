@@ -1,23 +1,12 @@
 Capstone Project Final Report
 
 Introduction/Business Problem
-I own a fictional travel agency, and a client of mine is looking for a good destination for him and his wife.
-They want to travel to a city close to them, and since they live in Philadelphia, their two options are New York City, 
-and Toronto. They want to be close to the action, which in NYC would be in Manhattan, and in Toronto would be
-close to Yonge-Dundas Square. Since both cities are big metropolises with storied histories and lots of things to see and do, it is definitely a hard decision to make.
-However,their main issue is food, as they are vegan and don't always find good or unique vegan food
-on their travels. As a result they want to decide based on which city is more vegan friendly, and therefore would be more 
-welcoming for their dietary restrictions. 
+I own a fictional travel agency, and a client of mine is looking for a good destination for him and his wife. They want to travel to a city close to them, and since they live in Philadelphia, their two options are New York City and Toronto. They want to be close to the action, which in NYC would be in Manhattan, and in Toronto would be close to Yonge-Dundas Square. Since both cities are big metropolises with storied histories and lots of things to see and do, it is definitely a hard decision to make. However,their main issue is food, as they are vegan and don't always find good or unique vegan food
+on their travels. As a result they want to decide based on which city is more vegan friendly, and therefore would be more welcoming for their dietary restrictions. 
 
 Data
-I want to find spots that are close to Times Square and Yonge-Dundas Square, so I will be using the
-provided NYC data from our lab, and the Toronto data that I grabbed for the previous assignment. 
-Each dataset will have the the neighborhood, the borough, the lat-long coordinates, which I will use in conjunction
-with the Foursquare API to return a list of venues in each city.
-The data returned from the API will contain the Venues, neighborhoods, coordinates, venue type, venue name and venue description.
-Then I will reduce that down to a list of all the vegetarian/vegan restaurants in the area,
-and then map the locations for each venue in each city, to see not only which city has more vegan restaurants, but also to see 
-which city has veg restaurants closest to the action.
+I want to find spots that are close to Times Square and Yonge-Dundas Square, so I will be using the provided NYC data from our lab, and the Toronto data that I grabbed for the previous assignment. Each dataset will have the the neighborhood, the borough, the lat-long coordinates, which I will use in conjunction
+with the Foursquare API to return a list of venues in each city. The data returned from the API will contain the Venues, neighborhoods, coordinates, venue type, venue name and venue description. Then I will reduce that down to a list of all the vegetarian/vegan restaurants in the area, and then map the locations for each venue in each city, to see not only which city has more vegan restaurants, but also to see which city has veg restaurants closest to the action.
 
 Finally, after displaying the data visually, I will use that to show which city is more vegan freindly, and then give that list to my clients to help them
 remember and find each vegan restaurant in the city.
